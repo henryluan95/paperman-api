@@ -4,7 +4,7 @@ This is a back-up API for my capstone project PAPERMAN. It allows the front-end 
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) and Knex. It applied the MVC architecture. 
 
-The current website is using firebase.
+The website is currently using ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 
 Please click here for the live website: https://paperman.vercel.app/
 
