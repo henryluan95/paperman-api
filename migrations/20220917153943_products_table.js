@@ -4,9 +4,10 @@ exports.up = function (knex) {
       //Create products table
       .createTable("products", (table) => {
         table.increments("id").primary();
+        table.string("image").notNullable();
         table.string("title").notNullable();
         table.boolean("is_liked").defaultTo(0);
-        table.integer("price").notNullable();
+        table.decimal("price", 5, 2).notNullable();
       })
       //Create model table
       .createTable("models", (table) => {
